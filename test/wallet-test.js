@@ -71,7 +71,7 @@ describe('Transfer Request', () => {
     });
 });
 describe('Approve Function', () => {
-    it('does allow a non owner to approve a request', async() => {
+    it('does not allow a non owner to approve a request', async() => {
         try {
             await wallet.methods.approveRequest(0).send({
                 from: accounts[7],
