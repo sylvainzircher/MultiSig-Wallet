@@ -1,4 +1,4 @@
-# MultiSig-Wallet
+# Multisig-Wallet
 Creation of a multi-signature wallet as part of a project for the Ethereum Smart Contract 101 course @ Moralis Academy
 
 Code for a Multisig Wallet Smart Contract. A multisig wallet is a wallet where multiple “signatures” or approvals are needed for an outgoing transfer to take place. The wallet is configured in such a way that it requires several of its owners (set when the contract is deployed) to sign any transfer before it is valid. Anyone can deposit funds into this wallet but as soon as we want to spend funds, it requires several approvals.
