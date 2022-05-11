@@ -14,3 +14,9 @@ The wallet is configured in such a way that it requires several of its owners (s
 - Anyone of the owners should be able to create a transfer request. The creator of the transfer request will specify what amount and to what address the transfer will be made.
 - Owners should be able to approve transfer requests.
 - When a transfer request has the required approvals, the transfer should be sent. 
+
+---
+
+🖥️ **Run and test the code locally:**
+
+You will need to install both *npm* and *Nodejs*. To install both :point_right: [here](https://nodejs.org/en/).
