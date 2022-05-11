@@ -17,6 +17,10 @@ The wallet is configured in such a way that it requires several of its owners (s
 
 ---
 
-🖥️ **Run and test the code locally:**
+🖥️ **Compile and test the code locally:**
 
-You will need to install both *npm* and *Nodejs*. To install both :point_right: [here](https://nodejs.org/en/).
+- You will need to install both *npm* and *Nodejs*. To install both :point_right: [here](https://nodejs.org/en/).
+- Pull the files on your computer.
+- Run `npm install` to install all the necessary libraries.
+- Run `node compile.js` which will create a compiled version of the multisig wallet solidity code which is needed by the *test.js* script.
+- Finally `mocha` will run the tests.
